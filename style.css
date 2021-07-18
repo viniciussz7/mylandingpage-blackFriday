@@ -1,0 +1,680 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+:root {
+    --cor-header: white;
+    --cor-principal: #593157;
+    --cor-background: white;
+    --cor-text: white;
+    --cor-azul: rgb(88, 131, 223);
+    --cor-retang: #8C3253;
+    --cor-orange: #BF2E21;
+    --cor-mix: #8C3232;
+    --cor-footer: #0D0007;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor-background);
+    color: var(--cor-text);
+}
+
+
+/*ESTILIZANDO O CABEÇALHO*/
+
+header {
+    height: 150px;
+    width: 100%;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: var(--cor-);
+}
+
+header .logo {
+    width: auto;
+    height: auto;    
+}
+
+header .logo a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--cor-orange);
+    padding: 10px;
+    box-shadow: 1px 1px 10px var(--cor-orange);
+}
+
+
+
+/*ESTILIZANDO O BANNER*/
+main {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-image: url(/midias/banner-ex1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+.banner-left {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10;
+}
+
+.title-banner {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.title-banner h1 {
+    font-size: 140px;
+    font-weight: bolder;
+    background-color:var(--cor-background);
+    color: black;
+    border-radius: 1rem;
+    padding: 15px;
+}
+
+.title-banner h2 {
+
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.description-banner {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px;
+}
+
+.description-banner p {
+    font-size: 26px;
+}
+
+.description-banner p span {
+    background-color: var(--cor-azul);
+    padding: 5px;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: var(--cor-azul);
+    width: 250px;
+    height: 50px;
+    border-radius: 1rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--cor-text);
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    width: 300px;
+}
+
+
+.banner-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10;
+}
+
+.image-border {
+    border: 3px solid white;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+    background-image: url(/midias/efeito3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image-border1 {
+    border: 3px solid white;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-15deg);
+    background-image: url(/midias/efeito2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*ESTILIZANDO A SEÇAO DE BENEFICIOS*/
+
+.beneficios {
+    background-color: var(--cor-background);
+    border-top: 10px solid var(--cor-orange);
+    border-bottom: 10px solid var(--cor-orange);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin: 1px 0px 0px;
+    padding: 20px;
+    gap: 15px;
+}
+
+.title-beneficios {
+    color: var(--cor-principal);
+    font-size: 24px;
+    text-align: center;
+    margin: 30px;
+}
+
+.cards-beneficios {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.circle1 {
+    border: 2px solid var(--cor-mix);
+    box-shadow: 1px 1px 10px rgb(110, 108, 108);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(/midias/img-oferta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.circle2 {
+    border: 2px solid var(--cor-mix);
+    box-shadow: 1px 1px 10px darkgray;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(/midias/img-cashback1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.circle3 {
+    border: 2px solid var(--cor-mix);
+    box-shadow: 1px 1px 10px darkgray;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(/midias/img-frete.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.retang {
+    border: none;
+    box-shadow: 1px 1px 10px darkgray ;
+    width: auto;
+    height: auto;
+    background-color: var(--cor-retang);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+    padding: 10px;
+
+}
+
+.retang h3 {
+    width: auto;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: var(--cor-azul);
+    background-color: var(--cor-background);
+    text-align: center;
+}
+
+.retang-text {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+/*ESTILIZANDO O SPOILER DE PRODUTOS*/
+
+.spoiler {
+    background-image: linear-gradient(var(--cor-mix), var(--cor-principal));
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-spoiler {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px;
+    padding: 10px;
+}
+
+.title-spoiler p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.produtos {
+    width: 90%;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.itens {
+    width: 200px;
+    height: 290px;
+    opacity: 0.9;
+    
+    box-shadow: 3px 3px 20px var(--cor-retang);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens:hover {
+    opacity: 1;
+}
+
+.p1 {
+    width: 100%;
+    height: 80%;
+    background-image: url(/midias/p1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.p2 {
+    width: 100%;
+    height: 80%;
+    background-image: url(/midias/p2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.p4 {
+    width: 100%;
+    height: 80%;
+    background-image: url(/midias/p5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.p5 {
+    width: 100%;
+    height: 80%;
+    background-image: url(/midias/p8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.barra {
+    width: 100%;
+    height: 20%;
+    background-color: var(--cor-azul);
+    text-align: center;
+    padding: 5px;
+}
+
+.barra h3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+/*ESTILIZANDO O FORMULARIO*/
+
+.formulario {
+    background-color: var(--cor-principal);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-form {
+    font-size: 24px;
+    border-top: 3px solid var(--cor-retang);
+    border-bottom: 3px solid var(--cor-retang);
+    padding: 30px;
+    box-shadow: 2px 2px 15px var(--cor-retang);
+    margin: 50px 18px 90px 18px;
+    text-align: center;
+}
+
+
+.box-form-image {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.forms {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-shadow: 1px 1px 10px;
+    margin: 10px;
+}
+
+.forms h3 {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 5px;
+}
+
+.label {
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+input {
+    width: 95%;
+    height: 50px;
+    font-size: 20px;
+    margin: 10px 5px;
+    border-radius: 1rem;
+    padding: 5px;
+}
+
+.submit {
+    background-color: var(--cor-azul);
+    font-weight: 30px;
+    font-weight: bold;
+    color: var(--cor-text);
+    cursor: pointer;
+    transition-duration: 1s;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+
+.submit:hover {
+    background-color: var(--cor-orange);
+    opacity: 1;
+}
+
+.image-form {
+
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+
+/*ESTILIZANDO O FOOTER*/
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    color: var(--cor-footer);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.phrase-footer {
+    color: var(--cor-footer);
+    font-size: 15px;
+    margin: 30px;
+    text-align: center;
+}
+
+.phrase-footer a {
+    text-decoration: none;
+}
+
+.links-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+}
+
+.links-footer span {
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.icons-footer img {
+    width: 35px;
+    height: 35px;
+}
+
+.copy {
+    font-weight: bold;
+    margin: 15px;
+}
+
+
+
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 1085px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-right {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .title-banner h1 {
+        font-size: 120px;
+    }
+    .title-banner h2 {
+        font-size: 80px;
+    }
+    .description-banner p {
+        font-size: 24px;
+    }
+    .image-border {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+    }
+    .image-border1 {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        flex-direction: column;
+    }
+
+    .produtos {
+        flex-direction: column;
+    }
+
+    .box-form-image {
+        flex-direction: column;
+
+    }
+}
+
+@media (max-width: 730px) {
+    .banner-right {
+        display: none;
+    }
+    button {
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .title-beneficios {
+        font-size: 18px;
+    }
+    .title-form {
+        font-size: 18px;
+    }
+    .image-form {
+        display: none;
+    }
+}
+
+@media (max-width: 675px) {
+    .beneficios {
+        width: auto;
+    }
+    .cards-beneficios {
+        flex-direction: column;
+    }
+    #cardb2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 470px) {
+    .title-banner h1 {
+        font-size: 100px;
+    }
+    .title-banner h2 {
+        font-size: 60px;
+    }
+    .description-banner p {
+        font-size: 22px;
+    }
+    button {
+    width: 200px;
+    font-size: 20px;
+    }
+    .title-form {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 400px) {
+    .forms h3 {
+        font-size: 20px;
+    }
+    .title-banner h1 {
+        font-size: 80px;
+    }
+    .title-banner h2 {
+        font-size: 40px;
+    }
+    .description-banner p {
+        font-size: 20px;
+    }
+    .retang h3 {
+        font-size: 25px;
+    }
+    .retang-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    button {
+        margin-left: 0px;
+    }
+    .title-banner h1 {
+        font-size: 70px;
+    }
+    .title-banner h2 {
+        font-size: 35px;
+    }
+    .description-banner p {
+        font-size: 18px;
+    }
+    .icons-footer img {
+        width: 25px;
+        height: 25px;
+    }
+    input {
+        height: 40px;
+        font-size: 14px;
+    }
+
+}
