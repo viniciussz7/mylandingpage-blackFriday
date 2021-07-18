@@ -170,7 +170,7 @@ button:hover {
     width: 250px;
     height: 250px;
     transform: rotate(-15deg);
-    background-image: url(/midias/efeito3.jpg);
+    background-image: url(./midias/efeito3.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -180,7 +180,7 @@ button:hover {
     width: 250px;
     height: 250px;
     transform: rotate(-15deg);
-    background-image: url(/midias/efeito2.jpg);
+    background-image: url(./midias/efeito2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -225,7 +225,7 @@ button:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url(/midias/img-oferta.jpg);
+    background-image: url(./midias/img-oferta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -237,7 +237,7 @@ button:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url(/midias/img-cashback1.jpg);
+    background-image: url(./midias/img-cashback1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -249,7 +249,7 @@ button:hover {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background-image: url(/midias/img-frete.jpg);
+    background-image: url(./midias/img-frete.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -354,7 +354,7 @@ button:hover {
 .p1 {
     width: 100%;
     height: 80%;
-    background-image: url(/midias/p1.jpg);
+    background-image: url(./midias/p1.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -362,7 +362,7 @@ button:hover {
 .p2 {
     width: 100%;
     height: 80%;
-    background-image: url(/midias/p2.jpg);
+    background-image: url(./midias/p2.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -371,7 +371,7 @@ button:hover {
 .p4 {
     width: 100%;
     height: 80%;
-    background-image: url(/midias/p5.jpg);
+    background-image: url(./midias/p5.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -379,7 +379,7 @@ button:hover {
 .p5 {
     width: 100%;
     height: 80%;
-    background-image: url(/midias/p8.jpg);
+    background-image: url(./midias/p8.jpg);
     background-position: center;
     background-size: cover;
 }
