@@ -68,7 +68,7 @@ main {
     align-items: center;
     justify-content: space-between;
 
-    background-image: url(/midias/banner-ex1.jpg);
+    background-image: url(./midias/banner-ex1.jpg);
     background-size: cover;
     background-position: center;
 
